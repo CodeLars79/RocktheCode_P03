@@ -10,6 +10,8 @@ Todos los datos que aparecen pintados se obtienen mediante la API de Unsplash.
 
 Es una aplicación full responsive con un HTML minimo y un CSS muy minimalista.
 
+El código está repartido en los componentes Header, Footer y Main.  
+
 Si no se encuentran imágenes con la frase introducida, se mostrará el mensaje "Ooooops, no photos found! Try a new search..."
 Se limpiará el input después de cada búsqueda para que no moleste hacer una nueva búsqueda.
 Se puede volver al estado inicial de la página haciendo click en el propio logo o limpiendo el "search input".
