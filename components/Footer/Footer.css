@@ -1,0 +1,30 @@
+footer {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 20px;
+    z-index: 1;
+  }
+
+  .footer-icons img {
+    height: 30px;
+    margin: 0 30px;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 550px) {
+  .footer-icons img {
+    margin: 0 15px;
+  }
+}
